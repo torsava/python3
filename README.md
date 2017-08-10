@@ -17,30 +17,24 @@ The Python programming language, version 3.
 
 #### Main packages
 * `python3`, the main Python language interpreter
-* `python-setuptools`, the Python Packaging ecosystem
-* `python-pip`, the Python Packaging ecosystem
-* `python-wheel`, Used for unbundling of pip and setuptools
+* `python3-libs`, the Python standard library
+* `python3-pip`, Python packaging ecosystem
+* `python3-setuptools`, Python packaging ecosystem
+* `python3-tkinter`, Python GUI package
 
-#### Dependencies
-* `net-tools`, build dependency of the `python3` package
-* `tk`, build dependency of the `python3` and `tix` packages
-* `tix`, build dependency of the `python3` package
+#### Devel packages
+* `python3-debug`, for debugging purposes
+* `python3-devel`, for development
+* `python3-tools`, tools for development
+* `python3-wheel`, a built-package format for Python
 
 
 ### `python3-bootstrap`
 
 This module is necessary to bootstrap the `python3` module.
 
-#### Main packages
-* `python3`, the main Python language interpreter
-* `python-setuptools`, the Python Packaging ecosystem
-* `python-pip`, the Python Packaging ecosystem
-* `python-wheel`, Used for unbundling of pip and setuptools
-
-#### Dependencies
-* `net-tools`, build dependency of the `python3` package
-* `tk`, build dependency of the `python3` and `tix` packages
-* `tix`, build dependency of the `python3` package
+#### Packages
+Packages will be the same as in the `python3` module but will not be officially supported beyond bootstrapping the `python3` module.
 
 
 ### `python3-ecosystem`
@@ -53,3 +47,4 @@ This module will contain the same packages as the rh-python36 Software Collectio
 
 [To be added in the future.]
 This module will enable the bootstrapping sequence of the `python3-sphinx` package for the `python3-ecosystem` module.
+
