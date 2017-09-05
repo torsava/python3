@@ -50,6 +50,7 @@ This module will contain the same packages as the rh-python36 Software Collectio
 * `python3-crypto`, comment here
 * `python3-cryptography`, comment here
 * `python3-decorator`, comment here
+* `python3-dns`, comment here
 * `python3-iniparse`, comment here
 * `python3-IPy`, comment here
 * `python3-ordered-set`, comment here
