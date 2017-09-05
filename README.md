@@ -47,6 +47,7 @@ This module will contain the same packages as the rh-python36 Software Collectio
 * `python3-cffi`, comment here
 * `python3-chardet`, comment here
 * `python3-coverage`, comment here
+* `python3-crypto`, comment here
 * `python3-cryptography`, comment here
 * `python3-decorator`, comment here
 * `python3-iniparse`, comment here
