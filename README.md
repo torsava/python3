@@ -20,7 +20,6 @@ The Python programming language, version 3.
 * `python3-libs`, the Python standard library
 * `python3-pip`, Python packaging ecosystem
 * `python3-setuptools`, Python packaging ecosystem
-* `python3-tkinter`, Python GUI package
 
 #### Devel packages
 * `python3-debug`, for debugging purposes
